@@ -1,0 +1,29 @@
+{
+  "name": "formal_system_ab",
+  "version": "1.0.0",
+  "description": "Formal system a to b",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "webpack": "webpack",
+    "start": "nodemon .src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/losslessring/formal_system_ab.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/losslessring/formal_system_ab/issues"
+  },
+  "homepage": "https://github.com/losslessring/formal_system_ab#readme",
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "ramda": "^0.29.0"
+  }
+}
